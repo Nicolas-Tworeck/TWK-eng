@@ -4,6 +4,9 @@
     }
 }
 @media(max-width: 930px){
+    .nav{
+        height: 72.33px;
+    }
     .nav-container{
         display: flex;
     }
@@ -16,5 +19,36 @@
     .button-container,
     .redes{
         display: none;
+    }
+    .inicio-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-container-ini{
+        width: 60%;
+    }
+    .img-ini img{
+        width: 70%;
+    }
+    .img-container-ini{
+        margin-top: 50px;
+    }
+}
+@media(max-width:380px){
+
+    .inicio{
+        margin: 20px;
+    }
+    .title-container-ini{
+        width: 90%;
+    }
+    .title-container-ini h1{
+        font-size: 27px;
+    }
+    .title-container-ini p{
+        font-size: 15px;
+    }
+    .img-ini img{
+        width: 100%;
     }
 }
