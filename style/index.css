@@ -1,14 +1,15 @@
 .restricao {
     width: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 .restricao-ini{
     width: 100%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(270deg,rgba(38, 50, 72, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg,rgba(38, 50, 72, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 .inicio-container {
     display: grid;
@@ -95,4 +96,82 @@
     transform: scale(1.1);
     background: var(--color-green);
     color: var(--color-white);
+}
+
+
+.empresa{
+    width: 1300px;
+    margin-top: 80px;
+}
+.empresa-container{
+    width: 100%;
+}
+.conheca{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.conheca h1{
+    width: 55%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--dark-blue);
+    color: var(--color-white);
+}
+.areas{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.areas h1{
+    width: 55%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--dark-blue);
+    color: var(--color-white);
+}
+.processo{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    margin-bottom: 50px;
+}
+.line-processo{
+    display: flex;
+    justify-content: end;
+}
+.line-left{
+    height: 50%;
+    width: 50%;
+    border-left: 6px solid var(--color-blue);
+    border-bottom: 6px solid var(--color-blue);
+    border-radius: 0 0 0 10px;
+}
+.line-right{
+    height: 50%;
+    width: 50%;
+    border-right: 6px solid var(--color-blue);
+    border-bottom: 6px solid var(--color-blue);
+    border-radius: 0 0 10px 0;
+}
+.line-processo-right{
+    display: flex;
+    justify-content: start;
+}
+.text-processo{
+    border: 2px solid var(--color-blue);
+    padding: 20px;
+    text-align: justify;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: var();
+}
+.restricao-empresa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text-processo ul{
+    padding:  0 0 0 20px;
 }
