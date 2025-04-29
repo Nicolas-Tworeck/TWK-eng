@@ -118,6 +118,10 @@
     .title-services h1{
         width: 80%;
     }
+    .slider-container{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
 }
 
 @media(max-width:380px) {
@@ -153,5 +157,8 @@
     }
     .title-indi-services h1{
         font-size: 20px;
+    }
+    .slider-left h2{
+        font-size: 25px;
     }
 }
