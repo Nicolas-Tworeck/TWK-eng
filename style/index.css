@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(180deg,rgba(38, 50, 72, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg,rgba(38, 50, 72, 1) 0%, rgba(255, 255, 255, 1) 58%);
 }
 .inicio-container {
     display: grid;
@@ -118,6 +118,7 @@
     border-radius: 5px;
     background: var(--dark-blue);
     color: var(--color-white);
+    box-shadow: 0 2px 5px var(--color-black);
 }
 .areas{
     width: 100%;
@@ -131,6 +132,7 @@
     border-radius: 5px;
     background: var(--dark-blue);
     color: var(--color-white);
+    box-shadow: 0 2px 5px var(--color-black);
 }
 .processo{
     display: grid;
@@ -174,4 +176,76 @@
 }
 .text-processo ul{
     padding:  0 0 0 20px;
+}
+.restricao-miss{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.missao{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    
+}
+.missao-container{
+    display: flex;
+}
+.missao-indi{
+    width: 90%;
+    padding: 20px;
+    border-right: 2px solid var(--dark-blue);
+}
+.text-missao{
+    text-align: justify;
+}
+.title-missao h1{
+    color: var(--dark-blue);
+    text-decoration: underline var(--dark-blue);
+}
+#missao-right{
+    border: none;
+}
+
+.restricao-services{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+.services{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title-services h1{
+    background: var(--dark-blue);
+    width: 37%;
+    text-align: center;
+    color: var(--color-white);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px var(--color-black);
+}
+.services-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    row-gap: 5px;
+}
+
+.services-indi{
+    border: 2px solid var(--dark-blue);
+    padding: 20px;
+    border-radius: 5px;
+}
+.text-indi-services{
+    text-align: justify;
+}
+#service-imp{
+    margin:  0 2.5px 0 0;
+}
+#service-pa{
+    margin: 0 0 0 2.5px;
 }

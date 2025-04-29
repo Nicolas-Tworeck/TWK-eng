@@ -1,88 +1,157 @@
-@media(max-width:1250px){
-    .button-nav a{
+@media(max-width:1250px) {
+    .button-nav a {
         font-size: 10px;
     }
 }
-@media(max-width: 930px){
-    .nav{
+
+@media(max-width: 930px) {
+    .nav {
         height: 72.33px;
     }
-    .nav-container{
+
+    .nav-container {
         display: flex;
     }
-    .logo-nav img{
+
+    .logo-nav img {
         width: 200px;
     }
+
     .hamburger {
         display: flex;
     }
+
     .button-container,
-    .redes{
+    .redes {
         display: none;
     }
-    .inicio-container{
+
+    .inicio-container {
         display: flex;
         flex-direction: column;
     }
-    .title-ini{
-        margin-top: 50px;
+
+    .title-ini {
+        margin-top: 100px;
     }
-    .title-container-ini{
+
+    .title-container-ini {
         width: 60%;
     }
-    .img-ini img{
+
+    .img-ini img {
         width: 70%;
     }
-    .img-container-ini{
+
+    .img-container-ini {
         margin-top: 50px;
     }
-    .processo{
+
+    .processo {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .conheca{
+
+    .conheca {
         justify-content: center;
     }
-    .conheca h1{
+
+    .conheca h1 {
         width: 80%;
     }
-    .text-processo{
+
+    .text-processo {
         width: 80%;
     }
-    .line-processo{
+
+    .line-processo {
         display: none;
     }
-    .areas h1{
+
+    .areas h1 {
         width: 80%;
     }
-    .areas{
+
+    .areas {
         justify-content: center;
     }
-    .line-processo-right{
+
+    .line-processo-right {
         display: none;
+    }
+
+    .missao-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .missao-indi {
+        width: 80%;
+        border: none;
+        border-bottom: 2px solid var(--dark-blue);
+        padding: 20px 0;
+    }
+
+    .title-missao h1 {
+        font-size: 20px;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-indi {
+        width: 80%;
+    }
+
+    #service-imp,
+    #service-pa {
+        margin: 0 0 0 0 !important;
+    }
+    .title-services{
+        display: flex;
+        justify-content: center;
+    }
+    .title-services h1{
+        width: 80%;
     }
 }
-@media(max-width:380px){
-    .conheca h1{
+
+@media(max-width:380px) {
+    .conheca h1 {
         font-size: 25px;
     }
-    .areas h1{
+
+    .areas h1 {
         font-size: 25px;
     }
-    .inicio{
+
+    .inicio {
         margin: 20px;
     }
-    .title-container-ini{
+
+    .title-container-ini {
         width: 90%;
     }
-    .title-container-ini h1{
+
+    .title-container-ini h1 {
         font-size: 27px;
     }
-    .title-container-ini p{
+
+    .title-container-ini p {
         font-size: 15px;
     }
-    .img-ini img{
+
+    .img-ini img {
         width: 100%;
+    }
+    .title-services h1{
+        font-size: 25px;
+    }
+    .title-indi-services h1{
+        font-size: 20px;
     }
 }
