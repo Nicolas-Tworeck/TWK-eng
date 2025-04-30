@@ -134,14 +134,14 @@
 }
 @media(max-width:730px){
     .cliente-container{
-        width: 80%;
-        grid-template-columns: 50% 50%;
-        margin: 0;
+        margin-top: 100px;
+        margin-right: 0;
+        width: 50%;
         
     }
     .hexagono{
-        height: 138.56px;
-        width:160px;
+        height: 88px;
+        width:100px;
     }
 }
 @media(max-width:380px) {
@@ -181,4 +181,25 @@
     .slider-left h2{
         font-size: 25px;
     }
+    .cliente {
+        width: 100%;
+        max-width: 1300px;
+        margin: 100px auto 0 auto;
+        padding: 0 15px; /* margem interna para não colar nas bordas */
+        box-sizing: border-box;
+    }
+    
+    .cliente-container {
+        width: 70%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 20px;
+        justify-items: center;
+        margin-right: 80px;
+    }
+   .title-cliente h1{
+    font-size: 22px;
+   }
+    
+    
 }
