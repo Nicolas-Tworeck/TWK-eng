@@ -24,17 +24,17 @@
                 </div>
                 <div class="button-container">
                     <div class="button-nav">
-                        <a>SOBRE NÓS</a>
-                        <a>SERVIÇOS</a>
-                        <a>PROJETOS</a>
-                        <a>CLIENTES</a>
-                        <a>CONTATO</a>
+                        <a onclick="sobre()">SOBRE NÓS</a>
+                        <a onclick="service()">SERVIÇOS</a>
+                        <a onclick="projeto()">PROJETOS</a>
+                        <a onclick="cliente()">CLIENTES</a>
+                        <a onclick="contato()">CONTATO</a>
                     </div>
                 </div>
 
                 <div class="redes">
-                    <a><i class="bi bi-instagram"></i></a>
-                    <a><i class="bi bi-whatsapp"></i></a>
+                    <a onclick="instaEli()"><i class="bi bi-instagram"></i></a>
+                    <a onclick="whatsTWK()"><i class="bi bi-whatsapp"></i></a>
                 </div>
                 <div class="hamburguer-container">
                     <div class="hamburger">
@@ -45,23 +45,23 @@
                 </div>
                 <div class="menu-mobile">
                     <div class="button-menu">
-                        <a>SOBRE NÓS</a>
-                        <a>SERVIÇOS</a>
-                        <a>PORJETOS</a>
-                        <a>CLIENTES</a>
-                        <a>CONTATO</a>
+                        <a onclick="sobre()">SOBRE NÓS</a>
+                        <a onclick="service()">SERVIÇOS</a>
+                        <a onclick="projeto()">PROJETOS</a>
+                        <a onclick="cliente()">CLIENTES</a>
+                        <a onclick="contato()">CONTATO</a>
                     </div>
                     <div class="redes-menu">
-                        <a><i class="bi bi-instagram"></i></a>
-                        <a><i class="bi bi-whatsapp"></i></a>
+                        <a onclick="instaEli()"><i class="bi bi-instagram"></i></a>
+                        <a onclick="whatsTWK()"><i class="bi bi-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="nav"></div>
-        <div class="restricao">
+        <div  class="restricao">
             <div class="restricao-ini">
-                <div class="inicio">
+                <div  class="inicio">
                     <div class="inicio-container">
                         <div class="title-ini">
                             <div class="title-container-ini">
@@ -88,7 +88,7 @@
 
 
                 <div class="restricao-empresa">
-                    <div class="empresa">
+                    <div id="sobre" class="empresa">
                         <div class="empresa-container">
                             <div class="conheca">
                                 <h1>CONHEÇA MAIS SOBRE A TWK ENGENHARIA</h1>
@@ -182,7 +182,7 @@
                 </div>
 
                 <div class="restricao-services">
-                    <div class="services">
+                    <div id="service" class="services">
                         <div class="title-services">
                             <h1> <img src="img/logo-mini.png" width="35px" alt="">Conheça nossos serviços</h1>
                         </div>
@@ -241,8 +241,8 @@
                     </div>
                 </div>
             </div>
-            <div class="slides-container">
-                <div class="slider-container">
+            <div id="projeto" class="slides-container">
+                <div  class="slider-container">
                     <div class="slider-left">
                         <img src="img/logo-mini.png" width="35px" alt="">
                         <h2>Projetos Realizados</h2>
@@ -271,7 +271,7 @@
             <div class="restricao-cliente">
 
 
-                <div class="cliente">
+                <div id="cliente" class="cliente">
                     <div class="cliente-container">
 
                         <div class="hexagono">
@@ -325,13 +325,42 @@
             </div>
 
         </div>
+        <div class="restricao-footer">
 
 
+            <footer id="contato">
+                <div class="footer-container">
+                    <div class="image-footer">
+                        <img src="img/logo-mini.png" alt="">
+                    </div>
+                    <div class="contato-indi">
+                        <h1>Eliezer Tworeck</h1>
+                        <label>Eng. Mecânico</label>
+                        <label>CREA: PR-202045/D</label>
+                    </div>
+                    <div class="contato-twk">
+                        <h1>TWK Projetos de Engenharia</h1>
+                        <a onclick="whatsTWK()" id="whats"><i class="bi bi-whatsapp"></i> (42) 99859-0111</a>
+                        <a onclick="mailTWK()" id="mail"><i class="bi bi-envelope"></i> engenharia@twkeng.com.br</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
 
+
+        <div class="restricao-dev">
+
+
+            <footer>
+                <div class="footer-dev">
+                    <a onclick="siteDev()"><img src="img/logo-creality.jpg" alt=""></a>
+                </div>
+            </footer>
+        </div>
 
     </form>
 </body>
 <script src="script/menuBar.js"></script>
 <script src="script/slider.js"></script>
-
+<script src="script/href.js"></script>
 </html>

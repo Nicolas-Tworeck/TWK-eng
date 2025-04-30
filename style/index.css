@@ -109,6 +109,7 @@
 
 
 .empresa {
+    scroll-margin-top: 120px;
     width: 1300px;
     margin-top: 80px;
 }
@@ -255,6 +256,7 @@
 }
 
 .services {
+    scroll-margin-top: 120px;
     width: 1300px;
     display: flex;
     flex-direction: column;
@@ -301,6 +303,7 @@
 }
 
 .slides-container {
+    scroll-margin-top: 200px;
     padding: 20px 0;
     width: 100%;
     background: var(--dark-blue);
@@ -426,6 +429,7 @@
     text-align: center;
   }
   .cliente{
+    scroll-margin-top: 200px;
     width: 1300px;
     display: flex;
     justify-content: start;
@@ -467,5 +471,85 @@
     margin-bottom: -5px;
     margin-right: 10px;
   }
+.restricao-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--dark-blue);
+    padding: 50px  0;
+}
+ footer{
+    width: 1300px;
+ }
+ .footer-container{
+    display: flex;
+    justify-content: center;
+    color: var(--color-white);
+ }
+ .image-footer{
+    
+    display: flex;
+    flex-direction: column;
+ }
+ .image-footer img{
+    width: 200px;
+    width: 33%;
+ }
+ .contato-indi{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .contato-indi h1{
+    font-size: 25px;
+ }
+ .contato-twk h1{
+    font-size: 25px;
+ }
+ .contato-twk a{
+    transition: 0.5s;
+ }
+ .contato-twk a i{
+    transition: 0.5s;
+ }
+ .contato-twk a:hover{
+    transform: scale(1.1);
+ }
+ #whats:hover{
+   i{
+    color: var(--color-green);
+   }
+ }
+ #mail:hover{
+    i{
+        color: var(--color-blue);
+    }
+ }
+ .contato-twk{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+ }
 
- 
+ .restricao-dev{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: var(--dark-more-blue);
+ }
+.footer-dev{
+    display: flex;
+    justify-content: center;
+}
+ .footer-dev img{
+    width: 200px;
+ }
+ .footer-dev a{
+    transition: 0.5s;
+ }
+ .footer-dev a:hover{
+    transform: scale(1.1);
+ }

@@ -130,7 +130,19 @@
         flex-direction: column-reverse;
         height: 100%;
     }
-    
+    .image-footer{
+        width: 15%;
+    }
+    .image-footer img{
+        width: 100%;
+        
+    }
+    .contato-indi{
+        width: 42%;
+    }
+    .contato-twk{
+        width: 42%;
+    }
 }
 @media(max-width:730px){
     .cliente-container{
@@ -142,6 +154,22 @@
     .hexagono{
         height: 88px;
         width:100px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .image-footer{
+        width: 100%;
+        align-items: center;
+    }
+    .contato-indi,
+    .contato-twk{
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .image-footer img{
+        width: 150px;
     }
 }
 @media(max-width:380px) {
