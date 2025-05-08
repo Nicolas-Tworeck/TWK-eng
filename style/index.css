@@ -382,6 +382,7 @@
     /* espaçamento interno opcional */
     background-color: transparent;
     /* fundo branco entre imagens */
+    align-items: center;
 }
 
 .slide {
@@ -408,7 +409,6 @@
     justify-content: center;
     align-items: center;
     transition:0.5s;
-    filter: grayscale(100%);
     clip-path: polygon(
       25% 0%, 75% 0%, 
       100% 50%, 75% 100%, 
@@ -418,7 +418,6 @@
   }
   .hexagono:hover{
     transform: scale(1.1);
-    filter: grayscale(0%);
     
   }
   .hexagono img{
