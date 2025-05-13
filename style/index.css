@@ -442,9 +442,10 @@
     
   }
   .hexagono img{
-    width: 80%;
-    height: 45%;
-  }
+    width: 80%;  }
+  #mutuca{
+    width: 50%;
+}
   .img{
     text-align: center;
   }
@@ -480,7 +481,26 @@
   .title-cliente{
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-cliente a{
+    margin-top: 20px;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    transition: 0.5s;
+  }
+  .title-cliente a:hover{
+    transform: scale(1.1);
+    border: 2px solid transparent;
+    background: var(--color-white);
+    color: var(--dark-blue);
+    box-shadow: 0 5px 20px var(--color-black);
   }
   .title-cliente h1{
     color: var(--color-white);
@@ -499,12 +519,14 @@
     background: var(--dark-blue);
     padding: 50px  0;
 }
+
  footer{
     width: 1300px;
  }
  .footer-container{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: end;
     color: var(--color-white);
  }
  .image-footer{
@@ -514,10 +536,10 @@
  }
  .image-footer img{
     width: 200px;
-    width: 33%;
+    width: 80%;
  }
  .contato-indi{
-    width: 33%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -551,7 +573,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 80%;
  }
 
  .restricao-dev{
@@ -563,10 +585,10 @@
  }
 .footer-dev{
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
  .footer-dev img{
-    width: 200px;
+    width: 100px;
  }
  .footer-dev a{
     transition: 0.5s;

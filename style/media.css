@@ -136,9 +136,7 @@
         height: 100%;
     }
 
-    .image-footer {
-        width: 15%;
-    }
+    
 
     .image-footer img {
         width: 100%;
@@ -146,11 +144,11 @@
     }
 
     .contato-indi {
-        width: 42%;
+        width: 80%;
     }
 
     .contato-twk {
-        width: 42%;
+        width: 80%;
     }
 
     .slide h1 {
@@ -173,6 +171,7 @@
     }
 
     .footer-container {
+        display: flex;
         flex-direction: column;
     }
 
@@ -189,7 +188,7 @@
     }
 
     .image-footer img {
-        width: 150px;
+        width: 250px;
     }
 
     
@@ -262,5 +261,7 @@ font-size: 5px;
         text-align: center;
     }
 
-
+.footer-dev{
+    justify-content: center;
+}
 }
