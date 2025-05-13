@@ -585,7 +585,7 @@
  }
 .footer-dev{
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
  .footer-dev img{
     width: 100px;
