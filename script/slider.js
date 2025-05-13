@@ -19,6 +19,9 @@ function prevSlide() {
   updateSlide();
 }
 
+// Troca automática de slide a cada 2 segundos
+setInterval(nextSlide, 2000);
+
 // Adiciona suporte a toque e arrastar
 let startX = 0;
 let isDragging = false;

@@ -2,12 +2,14 @@
     .button-nav a {
         font-size: 10px;
     }
-    .cliente{
+
+    .cliente {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .cliente-container{
-        margin-top:100px;
+
+    .cliente-container {
+        margin-top: 100px;
         margin-right: 50px;
     }
 }
@@ -119,59 +121,83 @@
     #service-pa {
         margin: 0 0 0 0 !important;
     }
-    .title-services{
+
+    .title-services {
         display: flex;
         justify-content: center;
     }
-    .title-services h1{
+
+    .title-services h1 {
         width: 80%;
     }
-    .slider-container{
+
+    .slider-container {
         flex-direction: column-reverse;
         height: 100%;
     }
-    .image-footer{
+
+    .image-footer {
         width: 15%;
     }
-    .image-footer img{
+
+    .image-footer img {
         width: 100%;
-        
+
     }
-    .contato-indi{
+
+    .contato-indi {
         width: 42%;
     }
-    .contato-twk{
+
+    .contato-twk {
         width: 42%;
+    }
+
+    .slide h1 {
+        color: var(--color-white);
+        font-size: 15px;
     }
 }
-@media(max-width:730px){
-    .cliente-container{
+
+@media(max-width:730px) {
+    .cliente-container {
         margin-top: 100px;
         margin-right: 0;
         width: 50%;
-        
+
     }
-    .hexagono{
+
+    .hexagono {
         height: 88px;
-        width:100px;
+        width: 100px;
     }
-    .footer-container{
+
+    .footer-container {
         flex-direction: column;
     }
-    .image-footer{
+
+    .image-footer {
         width: 100%;
         align-items: center;
     }
+
     .contato-indi,
-    .contato-twk{
+    .contato-twk {
         width: 100%;
         align-items: center;
         margin-bottom: 20px;
     }
-    .image-footer img{
+
+    .image-footer img {
         width: 150px;
     }
+
+    
+.slide-content h1{
+font-size: 5px;
 }
+}
+
 @media(max-width:380px) {
     .conheca h1 {
         font-size: 25px;
@@ -200,23 +226,28 @@
     .img-ini img {
         width: 100%;
     }
-    .title-services h1{
+
+    .title-services h1 {
         font-size: 25px;
     }
-    .title-indi-services h1{
+
+    .title-indi-services h1 {
         font-size: 20px;
     }
-    .slider-left h2{
+
+    .slider-left h2 {
         font-size: 25px;
     }
+
     .cliente {
         width: 100%;
         max-width: 1300px;
         margin: 100px auto 0 auto;
-        padding: 0 15px; /* margem interna para não colar nas bordas */
+        padding: 0 15px;
+        /* margem interna para não colar nas bordas */
         box-sizing: border-box;
     }
-    
+
     .cliente-container {
         width: 70%;
         display: grid;
@@ -225,10 +256,11 @@
         justify-items: center;
         margin-right: 80px;
     }
-   .title-cliente h1{
-    font-size: 20px;
-    text-align: center;
-   }
-    
-    
+
+    .title-cliente h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+
 }
