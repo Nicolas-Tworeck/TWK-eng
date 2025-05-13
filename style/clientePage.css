@@ -1,0 +1,152 @@
+.restricao-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+.button-return{
+    margin: 20px 0;
+}
+.button-return a{
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: none;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.button-return a:hover{
+    background: var(--dark-blue);
+    color: var(--color-white);
+}
+section p{
+    opacity: 50%;
+}
+section p a{
+    color: var(--dark-blue);
+}
+
+.restrition-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+.text-container{
+    width: 90%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--dark-blue);
+    display: flex;
+    justify-content: center;
+}
+.text-container p{
+    width: 90%;
+    text-align: justify;
+    font-size: 20px;
+}
+.restricao-button-down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button-down{
+    width: 1330px;
+    display: flex;
+    justify-content: center;
+}
+.button-down a i{
+    font-size: 40px;
+    color: var(--dark-blue);
+    background: transparent;
+    border-radius: 100%;
+    padding: 5px 9px;
+    border: 1px solid var(--dark-blue);
+    transition: 0.3s;
+}
+.button-down a i:hover{
+    background: var(--dark-blue);
+    color: var(--color-white);
+}
+
+
+.cliente-container-clientePg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 1300px;
+  padding: 100px 0 30px 0;
+}
+
+.hex-row {
+  display: flex;
+  gap: 20px;
+}
+
+.hex-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.hex {
+  width: 150px;
+  height: 129.9px; /* altura ≈ largura * √3 / 2 */
+  background: white;
+  margin: 10px;
+  clip-path: polygon(
+    25% 0%, 75% 0%, 
+    100% 50%, 75% 100%, 
+    25% 100%, 0% 50%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.hex:hover {
+  transform: scale(1.05);
+}
+
+.hex img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+}
+#clienteArea{
+    scroll-margin-top: 30px;
+}
+.cliente-restricao{
+    
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--dark-blue);
+    background-image: url('../img/engrenage-body.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px var(--color-black);
+    z-index: 1;
+    position: sticky;
+}
+
+@media(max-width:730px){
+    .hex-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+   }
+}
+
