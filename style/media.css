@@ -46,7 +46,7 @@
     }
 
     .title-container-ini {
-        width: 60%;
+        width: 90%;
     }
 
     .img-ini img {
@@ -223,13 +223,8 @@
         margin: 20px;
     }
 
-    .title-container-ini {
-        width: 90%;
-    }
 
-    .title-container-ini h1 {
-        font-size: 27px;
-    }
+    
 
     .title-container-ini p {
         font-size: 15px;
