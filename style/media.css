@@ -12,6 +12,10 @@
         margin-top: 100px;
         margin-right: 50px;
     }
+    .projeto-container{
+        grid-template-columns: 25% 25% 25% 25%;
+        row-gap: 50px;
+    }
 }
 
 @media(max-width: 930px) {
@@ -155,6 +159,9 @@
         color: var(--color-white);
         font-size: 15px;
     }
+    .projeto-container{
+        grid-template-columns: 33% 33% 33%;
+    }
 }
 
 @media(max-width:730px) {
@@ -207,6 +214,18 @@
    .hex-container .hex{
     width: 110px;
     height: 95.26px;
+   }
+   .projeto-container{
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    row-gap: 20px;
+   }
+   .projeto-content video{
+    width: 150px;
+   }
+   .projeto-content h2{
+    width: 150px;
+    font-size: 15px;
    }
 }
 

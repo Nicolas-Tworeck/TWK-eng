@@ -1,0 +1,110 @@
+.restricao-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; ;
+}
+.button-return{
+    margin: 20px 0;
+    width: 80%;
+}
+.button-return a{
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: none;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.button-return a:hover{
+    background: var(--dark-blue);
+    color: var(--color-white);
+}
+.section-history{
+    width: 80%;
+}
+section p{
+    opacity: 50%;
+}
+section p a{
+    color: var(--dark-blue);
+}
+
+
+.projeto-restricao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+.projeto{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+.projeto-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 100%;
+    justify-items: center;
+}
+.projeto-create{
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.projeto-create:hover{
+    border:2px solid var(--dark-blue);
+    transform: scale(1.05);
+}
+.projeto-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--dark-blue);
+    border-radius: 5px;
+    padding: 3px;
+}
+.projeto-content video{
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+}
+.projeto-content h2{
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 10px 0;
+    color: var(--color-white);
+}
+
+.text-restricao-projeto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text-projeto{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+.text-container-projeto{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid var(--dark-blue);
+    padding-bottom: 20px;
+}
+.text-container-projeto p{
+    width: 90%;
+    text-align: justify;
+    font-size: 20px;
+}

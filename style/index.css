@@ -484,7 +484,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .title-cliente a{
+  #buttonMore{
     margin-top: 20px;
     background: transparent;
     padding: 5px 10px;
@@ -495,7 +495,7 @@
     color: var(--color-white);
     transition: 0.5s;
   }
-  .title-cliente a:hover{
+  #buttonMore:hover{
     transform: scale(1.1);
     border: 2px solid transparent;
     background: var(--color-white);
@@ -512,3 +512,5 @@
     margin-bottom: -5px;
     margin-right: 10px;
   }
+
+  
