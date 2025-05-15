@@ -13,7 +13,7 @@
         margin-right: 50px;
     }
     .projeto-container{
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 50% 50%;
         row-gap: 50px;
     }
 }
@@ -160,7 +160,7 @@
         font-size: 15px;
     }
     .projeto-container{
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 50% 50%;
     }
 }
 
@@ -216,7 +216,8 @@
     height: 95.26px;
    }
    .projeto-container{
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: column-reverse;
     width: 90%;
     row-gap: 20px;
    }
@@ -226,6 +227,13 @@
    .projeto-content h2{
     width: 150px;
     font-size: 15px;
+   }
+   .projeto-create{
+    display: flex;
+    justify-content: center;
+   }
+   .name-projeto h1{
+    font-size: 25px;
    }
 }
 

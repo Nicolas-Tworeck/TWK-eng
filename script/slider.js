@@ -20,7 +20,7 @@ function prevSlide() {
 }
 
 // Troca automática de slide a cada 2 segundos
-setInterval(nextSlide, 2000);
+setInterval(nextSlide, 4000);
 
 // Adiciona suporte a toque e arrastar
 let startX = 0;
