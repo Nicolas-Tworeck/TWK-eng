@@ -232,6 +232,9 @@
     display: flex;
     justify-content: center;
    }
+   .text-projeto-paragrafo p{
+    font-size: 15px;
+   }
    .name-projeto h1{
     font-size: 25px;
    }
