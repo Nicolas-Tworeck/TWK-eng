@@ -238,6 +238,9 @@
    .name-projeto h1{
     font-size: 25px;
    }
+   .parceiro-container{
+    margin-top: 50px;
+   }
 }
 
 @media(max-width:380px) {

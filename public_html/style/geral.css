@@ -198,16 +198,16 @@ nav{
 }
 
  footer{
-    width: 1300px;
+    width: 1400px;
  }
  .footer-container{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
     justify-items: end;
     color: var(--color-white);
  }
  .image-footer{
-    
+    justify-content: center;
     display: flex;
     flex-direction: column;
  }
@@ -216,16 +216,16 @@ nav{
     width: 80%;
  }
  .contato-indi{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
  }
  .contato-indi h1{
-    font-size: 25px;
+    font-size: 23px;
  }
  .contato-twk h1{
-    font-size: 25px;
+    font-size: 23px;
  }
  .contato-twk a{
     transition: 0.5s;
@@ -250,9 +250,50 @@ nav{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
  }
+ .parceiros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .parceiros h1{
+    margin-bottom: 20px;
+    background: var(--dark-more-blue);
+    padding: 2px 10px;
+    border-radius: 5px;
+ }
+.hexagono-parca {
+    width: 100px;
+    height: 86.6px;
+    /* altura ≈ largura * √3 / 2 para hexágono regular */
+    background: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    clip-path: polygon(25% 0%, 75% 0%,
+            100% 50%, 75% 100%,
+            25% 100%, 0% 50%);
+    margin: 50px 5px;
+    
+}
 
+.hexagono-parca img {
+    width: 80%;
+}
+.parceiro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#at3{
+    margin-top: -20px;
+
+}
+#at3 img{
+    width: 60%;
+}
  .restricao-dev{
     width: 100%;
     display: flex;
