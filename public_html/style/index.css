@@ -22,16 +22,37 @@
 .inicio {
     width: 1300px;
     margin-top: 50px;
+    z-index: 1;
+}
+
+.bubble-right{
+     background: var(--dark-blue);
+    padding: 100px 10px;
+    margin-top: -210px;
+    border-radius: 100%;
+    box-shadow: 0 10px 20px var(--color-black);
+    width: 110%;
+    transition: 1.5s;
+    z-index: -1;
 }
 
 .img-ini {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
 }
-
+.img-ini:hover{
+    transform: scale(1.02);
+    .bubble-right{
+        background: var(--color-blue);
+        box-shadow: 0 10px 20px var(--color-blue);
+    }
+}
 .img-container-ini {
     display: flex;
     justify-content: center;
+    
 }
 
 .img-ini img {
